@@ -1,0 +1,76 @@
+
+@import url(css/reset.css);
+@import url(css/header.css);
+@import url(css/produtos.css);
+@import url(css/mapa.beneficios.css);
+@import url(css/video.css);
+
+
+
+body{
+    
+ font-family: 'Montserrat', sans-serif;
+        
+    
+    
+}
+
+   
+footer{
+
+    text-align: center;
+    background: url("imagens/bg.jpg");
+    padding: 40px 0px;
+}
+
+@media screen and (max-width: 980px) { 
+.caixa, .conteudo-beneficios, .mapa-conteudo, .produtos, main ,.formain, .mapa-conteudo 
+{
+    width: auto;
+}
+
+.utensilios{
+    align-items: center;
+    padding-left:1em ;
+    padding: 0.5em;
+}
+      
+.beneficios{
+    padding: 2em;
+}
+h1 {
+    text-align: center;
+    
+}
+nav {
+    position: static;
+    
+}
+.lista-beneficios,.imagembeneficios {
+    width: 100%;
+    
+}
+    
+.principal > p {
+    width: auto;
+    
+}
+    
+.produtos > li {
+    text-align: center;
+    margin: 0 50px;
+    display: inline-table;
+      
+}
+.video{
+display: none;
+}
+.formain{
+    padding: 0.5em;
+}
+.botaoEnviar {
+    width: 50%;
+
+}
+
+}
